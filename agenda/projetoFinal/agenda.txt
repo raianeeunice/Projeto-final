@@ -1,0 +1,4 @@
+Rai|email|rai@gmail.com 
+Raul|telefone|40028922 
+Lucas|email|lucas@hotmail.com 
+Ghi|telefone|32559876 
