@@ -64,7 +64,7 @@ func main(){
 	opcao := 0
 	for {
 		fmt.Println("O que você deseja fazer?")
-		fmt.Println("  1 - Listas os contatos")
+		fmt.Println("  1 - Listar os contatos")
 		fmt.Println("  2 - Criar novos contatos")
 		fmt.Println("  3 - Sair")
 		fmt.Scanf("%d \n", &opcao)
@@ -86,7 +86,7 @@ func listarContatos(gerenciador *GerenciadorContatos){
 	if err != nil{
 		fmt.Printf("Não foi possível carregar os contatos: %s \n", err)
 	}else{
-		fmt.Println("Lista de contstos: ")
+		fmt.Println("Lista de contatos: ")
 		for _, contato := range contatos{
 			fmt.Printf("  - %s, %s: %s \n", contato.nome, contato.formaContato, contato.valorContato)
 		}
